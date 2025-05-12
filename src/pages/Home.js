@@ -1,8 +1,8 @@
 function Home() {
   return (
-    <div>
+    <div className="container">
       <h1>Bem-vindo ao meu site!</h1>
-      <p>Esta é a landing page.</p>
+      <p>Esta é a landing page, construída com React!</p>
     </div>
   );
 }

@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #e0f7fa 0%, #f9fbe7 100%);
+  color: #333;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+/* Estilo para navegação */
+nav {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  padding: 1.2rem 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(67, 233, 123, 0.1);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+nav a {
+  color: white;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+nav a:hover {
+  background: rgba(255,255,255,0.18);
+  color: #222;
+  box-shadow: 0 2px 8px rgba(67, 233, 123, 0.15);
+  text-decoration: none;
+}
+
+/* Container principal das páginas */
+.container {
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 32px 24px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(67, 233, 123, 0.08), 0 1.5px 6px rgba(0,0,0,0.07);
+}
+
+/* Títulos das páginas */
+h1 {
+  color: #43e97b;
+  font-size: 2.8rem;
+  margin-bottom: 22px;
+  text-shadow: 1px 2px 8px rgba(67, 233, 123, 0.15);
+  letter-spacing: 1px;
+}
+
+/* Estilos para os parágrafos */
+p {
+  font-size: 1.25rem;
+  color: #444;
+  margin-bottom: 1.2em;
+  line-height: 1.8;
+}
+
+/* Botões genéricos */
+button, .btn {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(67, 233, 123, 0.12);
+  transition: background 0.3s, box-shadow 0.3s;
+  margin-top: 12px;
+}
+
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #38f9d7 0%, #43e97b 100%);
+  box-shadow: 0 4px 16px rgba(67, 233, 123, 0.18);
+}
+
+/* Responsividade básica */
+@media (max-width: 700px) {
+  .container {
+    padding: 18px 6px;
+    margin: 18px 4px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  nav a {
+    margin: 0 6px;
+    font-size: 1rem;
+    padding: 6px 10px;
+  }
+}

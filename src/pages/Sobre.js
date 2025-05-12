@@ -1,8 +1,8 @@
 function Sobre() {
   return (
-    <div>
+    <div className="container">
       <h1>Sobre mim</h1>
-      <p>Informações sobre você ou sua empresa.</p>
+      <p>Informações sobre mim ou minha empresa.</p>
     </div>
   );
 }
