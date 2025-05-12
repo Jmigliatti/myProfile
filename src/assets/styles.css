@@ -8,7 +8,7 @@
 /* Corpo da página */
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: linear-gradient(135deg, #e0f7fa 0%, #f9fbe7 100%);
+  background: linear-gradient(135deg, #151723 0%, #1e202c 100%);
   color: #333;
   line-height: 1.7;
   min-height: 100vh;
@@ -16,7 +16,7 @@ body {
 
 /* Estilo para navegação */
 nav {
-  background: linear-gradient(90deg, #51a797 0%, #23916c 100%);
+  background: linear-gradient(90deg, #3bdbc3 0%, #338380 100%);
   padding: 1.2rem 0;
   text-align: center;
   box-shadow: 0 2px 8px rgba(67, 233, 123, 0.1);
@@ -54,7 +54,7 @@ nav a:hover {
 
 /* Títulos das páginas */
 h1 {
-  color: #23916c;
+  color: #338380;
   font-size: 2.8rem;
   margin-bottom: 22px;
   text-shadow: 1px 2px 8px rgba(67, 233, 123, 0.15);
@@ -71,7 +71,7 @@ p {
 
 /* Botões genéricos */
 button, .btn {
-  background: linear-gradient(90deg, #51a797 0%, #23916c 100%);
+  background: linear-gradient(90deg, #3be2c8 0%, #338380 100%);
   color: rgb(177, 177, 177);
   border: none;
   padding: 12px 28px;
@@ -85,7 +85,7 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-  background: linear-gradient(90deg, #51a797 0%, #23916c 100%);
+  background: linear-gradient(90deg, #3be2c8 0%, #338380 100%);
   box-shadow: 0 4px 16px rgba(67, 233, 123, 0.18);
 }
 
