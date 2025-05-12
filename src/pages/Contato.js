@@ -9,7 +9,7 @@ function Contato() {
         <a href="joao.paulo.migliatti@gmail.com" title="E-mail" style={{ color: "#43e97b" }}>
           <FaEnvelope />
         </a>
-        <a href="https://www.https://www.linkedin.com/in/joao-paulo-migliatti-a66b66281" target="_blank" rel="noopener noreferrer" title="LinkedIn" style={{ color: "#0077b5" }}>
+        <a href="https://www.linkedin.com/in/joao-paulo-migliatti-a66b66281" target="_blank" rel="noopener noreferrer" title="LinkedIn" style={{ color: "#0077b5" }}>
           <FaLinkedin />
         </a>
         <a href="https://github.com/Jmigliatti" target="_blank" rel="noopener noreferrer" title="GitHub" style={{ color: "#333" }}>
