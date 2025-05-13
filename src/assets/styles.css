@@ -79,7 +79,7 @@ button, .btn {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(67, 233, 123, 0.12);
+  box-shadow: 0 2px 8px rgb(20,20,35);
   transition: background 0.3s, box-shadow 0.3s;
   margin-top: 12px;
 }
