@@ -8,7 +8,7 @@
 /* Corpo da página */
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: linear-gradient(135deg, #e0f7fa 0%, #f9fbe7 100%);
+  background: linear-gradient(135deg, #51515c 0%, #141423 100%);
   color: #333;
   line-height: 1.7;
   min-height: 100vh;
@@ -16,7 +16,7 @@ body {
 
 /* Estilo para navegação */
 nav {
-  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  background: linear-gradient(90deg, #39e3c9 0%, #2a736d 100%);
   padding: 1.2rem 0;
   text-align: center;
   box-shadow: 0 2px 8px rgba(67, 233, 123, 0.1);
@@ -47,14 +47,14 @@ nav a:hover {
   max-width: 1100px;
   margin: 32px auto;
   padding: 32px 24px;
-  background: rgba(255,255,255,0.95);
+  background: rgba(255, 255, 255, 0.95);
   border-radius: 18px;
   box-shadow: 0 8px 32px rgba(67, 233, 123, 0.08), 0 1.5px 6px rgba(0,0,0,0.07);
 }
 
 /* Títulos das páginas */
 h1 {
-  color: #43e97b;
+  color: #39e3c9;
   font-size: 2.8rem;
   margin-bottom: 22px;
   text-shadow: 1px 2px 8px rgba(67, 233, 123, 0.15);
@@ -71,7 +71,7 @@ p {
 
 /* Botões genéricos */
 button, .btn {
-  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  background: linear-gradient(90deg, #39e3c9 0%, #2a736d 100%);
   color: white;
   border: none;
   padding: 12px 28px;
@@ -85,8 +85,54 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-  background: linear-gradient(90deg, #38f9d7 0%, #43e97b 100%);
+  background: linear-gradient(90deg, #2a736d 0%, #39e3c9 100%);
   box-shadow: 0 4px 16px rgba(67, 233, 123, 0.18);
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.card {
+  background: #e7e7e7;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.contact-card {
+  background: #e7e7e7;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-card h2 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.contact-card p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #0077b5;
 }
 
 /* Responsividade básica */
@@ -104,3 +150,4 @@ button:hover, .btn:hover {
     padding: 6px 10px;
   }
 }
+

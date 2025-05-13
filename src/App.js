@@ -5,9 +5,11 @@ import Contato from './pages/Contato';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/myProfile">
       <nav style={{ padding: '1rem', backgroundColor: '#eee' }}>
-        <Link to="/">Início</Link> | <Link to="/sobre">Sobre</Link> | <Link to="/contato">Contato</Link>
+        <Link to="/" style={{ margin: '0 1rem' }}>Início</Link>
+        <Link to="/sobre" style={{ margin: '0 1rem' }}>Sobre</Link>
+        <Link to="/contato" style={{ margin: '0 1rem' }}>Contato</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
